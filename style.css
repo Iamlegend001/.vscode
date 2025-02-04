@@ -1,0 +1,93 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #343a40;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.navbar .head {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar .links {
+    font-size: 18px;
+}
+
+.navbar .links a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .links a:hover {
+    color: #ffdd57;
+}
+
+/* Blog Post Styling */
+article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+article ul, article ol {
+    margin: 10px 0 10px 20px;
+}
+
+article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #343a40;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
